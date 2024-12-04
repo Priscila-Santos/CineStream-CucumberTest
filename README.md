@@ -78,4 +78,3 @@ Execute os testes com Cucumber:
 mvn verify -P cucumber
 ```
 
-# CineStream-CucumberTest
