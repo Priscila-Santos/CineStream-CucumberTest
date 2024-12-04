@@ -1,4 +1,4 @@
-package br.ada.cinestream_test.user;
+package br.ada.cinestream_test.usuarios;
 
 import br.ada.cinestream_test.dto.mapping.UsuarioMapper;
 import br.ada.cinestream_test.dto.request.UsuarioRequest;

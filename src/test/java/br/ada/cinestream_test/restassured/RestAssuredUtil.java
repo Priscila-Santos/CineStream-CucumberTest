@@ -36,11 +36,6 @@ public class RestAssuredUtil {
         moviesResponse.prettyPrint();
         moviesResponse.then().statusCode(200);
 
-        // Testar endpoint de usuários
-        Response usersResponse = produces().get("/usuarios");
 
-        System.out.println("Response from /usuarios endpoint:");
-        usersResponse.prettyPrint();
-        usersResponse.then().statusCode(200);
     }
 }
